@@ -1,0 +1,65 @@
+﻿<Page x:Class="PhysicalTests.Pages.StandJumpPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PhysicalTests.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      TextElement.FontWeight="Regular"
+      TextElement.FontSize="13"
+      TextOptions.TextFormattingMode="Ideal" 
+      TextOptions.TextRenderingMode="Auto"        
+      FontFamily="{DynamicResource MaterialDesignFont}"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="StandJumpPage" Loaded="Page_Loaded" Unloaded="Page_Unloaded">
+
+    <Page.Background>
+        <ImageBrush ImageSource="/Images/PlayGround.png"/>
+    </Page.Background>
+
+    <Viewbox Stretch="Uniform">
+        <Canvas Width="1280" Height="720">
+            <!--loading图片，运行时由后台代码打开-->
+            <Rectangle x:Name="LoadImg" Visibility="Collapsed" Panel.ZIndex="999" 
+                       Width="1280" Height="720" Canvas.Left="0" Canvas.Top="0">
+                <Rectangle.Fill>
+                    <ImageBrush ImageSource="/Images/LoadJump.png"></ImageBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            
+            
+            <DockPanel Width="1280" Height="720" LastChildFill="False">
+                <!--上部-->
+                <DockPanel DockPanel.Dock="Top" LastChildFill="False" HorizontalAlignment="Center">
+                    <materialDesign:Card
+                        DockPanel.Dock="Left"
+                        Background="#37B3C3"
+                        Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
+                        Height="100"
+                        Width="Auto"
+                        Padding="8"
+                        Margin="10 20 10 0"
+                        UniformCornerRadius="10"
+                        VerticalContentAlignment="Center">
+                        <TextBlock
+                        FontSize="50" FontWeight="ExtraBold" TextWrapping="Wrap" VerticalAlignment="Center"
+                        Text="单手举过头顶，开始测试；单手侧平举，结束测试"/>
+                    </materialDesign:Card>
+                </DockPanel>
+                <!--下部，控制viewbox的位置-->
+                <TextBlock DockPanel.Dock="Bottom" Height="25"/>
+                <!--左部-->
+                <Viewbox Stretch="UniformToFill" DockPanel.Dock="Left" Width="600" Height="450" Margin="10">
+                    <!--<Rectangle Width="640" Height="480" Fill="Green" />-->
+                    <Image x:Name="ColorImage" Width="640" Height="480"/>
+                </Viewbox>
+                <!--右部,稍微调大窗口，使黑色背景的骨骼图像在视觉上和彩色图像差不多-->
+                <Viewbox Stretch="UniformToFill" DockPanel.Dock="Right" Width="605" Height="454" Margin="10">
+                    <Image x:Name="SkeletonImage" Width="640" Height="480"/>
+                </Viewbox>
+            </DockPanel>
+        </Canvas>
+    </Viewbox>
+</Page>

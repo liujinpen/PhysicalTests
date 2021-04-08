@@ -1,0 +1,18 @@
+G:\Code\Visual Studio\TestProjects\TestProjects\.Debug\KinectInteraction180_32.dll
+G:\Code\Visual Studio\TestProjects\TestProjects\.Debug\KinectInteraction180_64.dll
+G:\Code\Visual Studio\TestProjects\TestProjects\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+G:\Code\Visual Studio\TestProjects\TestProjects\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.cache
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls_MarkupCompile.lref
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Themes\Generic.baml
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.g.resources
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csproj.CoreCompileInputs.cache
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csproj.CopyComplete
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.dll
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+G:\Code\KinectV1\PhysicalTests\.Debug\KinectInteraction180_32.dll
+G:\Code\KinectV1\PhysicalTests\.Debug\KinectInteraction180_64.dll
+G:\Code\KinectV1\PhysicalTests\.Debug\Microsoft.Kinect.Toolkit.Controls.dll
+G:\Code\KinectV1\PhysicalTests\.Debug\Microsoft.Kinect.Toolkit.Controls.pdb
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit.Controls\obj\Debug\Microsoft.Kinect.Toolkit.Controls.csprojAssemblyReference.cache

@@ -1,0 +1,17 @@
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.pdb
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.CodeAnalysisLog.xml
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.Toolkit.dll.lastcodeanalysissucceeded
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.dll
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\bin\Debug\Microsoft.Kinect.xml
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.baml
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\KinectSensorChooserUI.g.cs
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit_MarkupCompile.cache
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.g.resources
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.Properties.Resources.resources
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.GenerateResource.cache
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CoreCompileInputs.cache
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csproj.CopyComplete
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.dll
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.pdb
+G:\Code\Visual Studio\TestProjects\TestProjects\Microsoft.Kinect.Toolkit\obj\Debug\Microsoft.Kinect.Toolkit.csprojAssemblyReference.cache

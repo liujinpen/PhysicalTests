@@ -1,0 +1,87 @@
+﻿<Page x:Class="PhysicalTests.Pages.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:PhysicalTests.Pages"
+      xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+      xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/composite-font"
+      TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+      TextElement.FontWeight="Regular"
+      TextElement.FontSize="13"
+      TextOptions.TextFormattingMode="Ideal" 
+      TextOptions.TextRenderingMode="Auto"        
+      FontFamily="{DynamicResource MaterialDesignFont}"
+      mc:Ignorable="d" 
+      d:DesignHeight="720" d:DesignWidth="1280"
+      Title="LoginPage">
+    
+    <Page.Background>
+        <ImageBrush ImageSource="/Images/PlayGround.png"></ImageBrush>
+    </Page.Background>
+
+    <Viewbox Stretch="Uniform">
+        <DockPanel LastChildFill="True">
+            <!--左边空间-->
+            <StackPanel DockPanel.Dock="Left" />
+
+            <!--右边空间-->
+            <StackPanel DockPanel.Dock="Right" />
+
+            <!--上边空间-->
+            <StackPanel DockPanel.Dock="Top" Height="Auto" VerticalAlignment="Stretch" Margin="0 20 0 0">
+                <Grid>
+                    <materialDesign:Card
+                        Background="#37B3C3"
+                        Foreground="{DynamicResource PrimaryHueDarkForegroundBrush}"
+                        Width="Auto"
+                        Padding="8"
+                        UniformCornerRadius="6"
+                        VerticalContentAlignment="Center">
+                        <TextBlock
+                        FontSize="40" FontWeight="ExtraBold" TextWrapping="Wrap"
+                        Text="kinect学生体质评测系统" />
+                    </materialDesign:Card>
+                </Grid>
+            </StackPanel>
+
+            <!--下边空间-->
+            <StackPanel DockPanel.Dock="Bottom" MinHeight="10"/>
+
+            <!--中间空间-->
+            <StackPanel  DockPanel.Dock="Top" MinHeight="200" MinWidth="400">
+                <Grid>
+                    <GroupBox Header="个人信息" Margin="0 10 0 0" Template="{DynamicResource MyGroupBox}">
+                        <StackPanel>
+                            <TextBox x:Name="UserName" Foreground="White"
+                                    materialDesign:HintAssist.Hint="输入姓名"
+                                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                    VerticalAlignment="Center" />
+                            <TextBox x:Name="UserAge" Foreground="White"
+                                    materialDesign:HintAssist.Hint="输入年龄 "
+                                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                    VerticalAlignment="Center" />
+                            <TextBox x:Name="UserHeight" Foreground="White"
+                                    materialDesign:HintAssist.Hint="输入身高(cm)"
+                                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                    VerticalAlignment="Center" />
+                            <TextBox x:Name="UserWeight" Foreground="White"
+                                    materialDesign:HintAssist.Hint="输入体重(Kg)"
+                                    Style="{StaticResource MaterialDesignFloatingHintTextBox}"
+                                    VerticalAlignment="Center" />
+                            <StackPanel Margin="0 10 0 0 ">
+                                <Button x:Name="LoginBtn" Style="{StaticResource MaterialDesignRaisedLightButton}" 
+                                        Height="40" Width="200"
+                                        materialDesign:ButtonAssist.CornerRadius="5" 
+                                        FontFamily="{x:Static SystemFonts.IconFontFamily}"
+                                        Command="{Binding SubmitCmd}">
+                                    <TextBlock Text="点击登录" />
+                                </Button>
+                            </StackPanel>
+                        </StackPanel>
+                    </GroupBox>
+                </Grid>
+            </StackPanel>
+        </DockPanel>
+    </Viewbox>
+</Page>
